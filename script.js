@@ -38,6 +38,7 @@ const stop = () => {
     startBtn.classList.remove("active");
     stopBtn.classList.add("active");
     resetBtn.classList.remove("active"); 
+    startBtn.innerHTML = "Resume";
     clearInterval(startTimer);
 }
 
@@ -48,6 +49,7 @@ const reset = () => {
     resetBtn.classList.add("active"); 
     hr = min = sec = ms = "0" + 0;
     setValue();
+    startBtn.innerHTML = "Start";
 }
 
 const setValue =() =>{
