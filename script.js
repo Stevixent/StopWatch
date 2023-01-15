@@ -9,6 +9,7 @@ const start = () => {
     startBtn.classList.add("active");
     stopBtn.classList.remove("active");
     resetBtn.classList.remove("active");
+    startBtn.innerHTML = "Start";
 
     startTimer = setInterval(()=>{
         ms++;
