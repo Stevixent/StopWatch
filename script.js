@@ -42,11 +42,11 @@ const stop = () => {
 }
 
 const reset = () => {
+    stop();
     startBtn.classList.remove("active");
     stopBtn.classList.remove("active");
     resetBtn.classList.add("active"); 
     hr = min = sec = ms = "0" + 0;
-    stop();
     setValue();
 }
 
