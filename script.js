@@ -46,6 +46,7 @@ const reset = () => {
     stopBtn.classList.remove("active");
     resetBtn.classList.add("active"); 
     hr = min = sec = ms = "0" + 0;
+    stop();
     setValue();
 }
 
