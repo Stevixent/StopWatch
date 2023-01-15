@@ -21,7 +21,7 @@ body{
 .wrapper{
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
